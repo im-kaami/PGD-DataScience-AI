@@ -1,0 +1,86 @@
+# Simple Linear Regression
+
+This repository contains a Jupyter Notebook that demonstrates the implementation of **Simple Linear Regression**. The goal of simple linear regression is to find the relationship between one independent variable (predictor) and one dependent variable (target) using a straight line.
+
+## Contents
+
+- `Starting with Simple Linear Regression.ipynb`: The main notebook that includes the following:
+  - Loading and exploring a dataset.
+  - Data visualization to understand the relationship between variables.
+  - Training a simple linear regression model.
+  - Model evaluation using metrics like Mean Squared Error (MSE) and R-squared.
+
+## Prerequisites
+
+Before running the notebook, ensure you have the following installed:
+
+- Python (>= 3.7)
+- Jupyter Notebook or JupyterLab
+- Required Python libraries:
+  - `numpy`
+  - `pandas`
+  - `matplotlib`
+  - `scikit-learn`
+
+You can install the libraries using the following command:
+```bash
+pip install numpy pandas matplotlib scikit-learn
+```
+
+## How to Run the Notebook
+
+1. Clone the repository:
+   ```bash
+   git clone <repository-url>
+   ```
+
+2. Navigate to the project directory:
+   ```bash
+   cd <repository-folder>
+   ```
+
+3. Open the notebook:
+   ```bash
+   jupyter notebook "Starting with Simple Linear Regression.ipynb"
+   ```
+
+4. Run the cells sequentially to execute the code and follow along with the explanation.
+
+## Example Workflow
+
+1. **Data Loading:**
+   Load a dataset containing features (independent variables) and a target variable (dependent variable).
+
+2. **Data Visualization:**
+   Visualize the relationship between the predictor and the target variable using scatter plots.
+
+3. **Model Training:**
+   Fit a simple linear regression model using `scikit-learn`.
+
+4. **Model Evaluation:**
+   Use metrics such as Mean Squared Error (MSE) and R-squared to evaluate the performance of the model.
+
+## Results
+
+The notebook provides a detailed walk-through of:
+- How to fit a simple linear regression model.
+- How to interpret the coefficients of the regression line.
+- Visualizing the regression line over the data points.
+- Assessing the model's accuracy using evaluation metrics.
+
+## Contributing
+
+Feel free to fork this repository and submit pull requests. Suggestions and improvements are welcome!
+
+## License
+
+This project is licensed under the MIT License. See the `LICENSE` file for details.
+
+## Acknowledgments
+
+- Dataset: (Add information about the dataset source if applicable)
+- Libraries: `numpy`, `pandas`, `matplotlib`, `scikit-learn`
+
+---
+
+### Happy Coding!
