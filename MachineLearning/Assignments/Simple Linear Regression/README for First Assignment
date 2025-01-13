@@ -1,0 +1,93 @@
+# Linear Regression with Per Capita Income Dataset
+
+This repository contains a Jupyter Notebook that demonstrates the implementation of **Simple Linear Regression** using a dataset about per capita income in Canada.
+
+## Contents
+
+- `Assignment01_canada_per_capita_income.ipynb`: The main notebook that includes the following:
+  - Data loading and exploration.
+  - Visualizing the relationship between year and per capita income.
+  - Implementing and training a simple linear regression model.
+  - Model evaluation and making predictions.
+
+## Prerequisites
+
+Before running the notebook, ensure you have the following installed:
+
+- Python (>= 3.7)
+- Jupyter Notebook or JupyterLab
+- Required Python libraries:
+  - `numpy`
+  - `pandas`
+  - `matplotlib`
+  - `scikit-learn`
+
+You can install the libraries using the following command:
+```bash
+pip install numpy pandas matplotlib scikit-learn
+```
+
+## Dataset
+
+The dataset contains two columns:
+- `Year`: The year corresponding to the data point.
+- `Per Capita Income`: The per capita income of Canada in USD.
+
+The goal is to predict the per capita income for a given year using simple linear regression.
+
+## How to Run the Notebook
+
+1. Clone the repository:
+   ```bash
+   git clone <repository-url>
+   ```
+
+2. Navigate to the project directory:
+   ```bash
+   cd <repository-folder>
+   ```
+
+3. Open the notebook:
+   ```bash
+   jupyter notebook "Assignment01_canada_per_capita_income.ipynb"
+   ```
+
+4. Run the cells sequentially to execute the code and follow along with the explanation.
+
+## Example Workflow
+
+1. **Data Loading:**
+   Load the dataset containing year and per capita income data.
+
+2. **Data Visualization:**
+   Visualize the relationship between the year and per capita income using scatter plots.
+
+3. **Model Training:**
+   Train a simple linear regression model to predict per capita income based on the year.
+
+4. **Model Evaluation:**
+   Evaluate the model's performance and make predictions for future years.
+
+## Results
+
+The notebook demonstrates:
+- How to fit a simple linear regression model.
+- Visualizing the regression line overlaying the data points.
+- Using the model to make predictions for specific years.
+
+## Contributing
+
+Feel free to fork this repository and submit pull requests. Suggestions and improvements are welcome!
+
+## License
+
+This project is licensed under the MIT License. See the `LICENSE` file for details.
+
+## Acknowledgments
+
+- Dataset: Custom dataset on Canadian per capita income.
+- Libraries: `numpy`, `pandas`, `matplotlib`, `scikit-learn`
+
+---
+
+### Happy Coding!
