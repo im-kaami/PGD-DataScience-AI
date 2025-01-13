@@ -1,0 +1,77 @@
+Multilinear Regression for Employee Hiring
+This repository contains a Jupyter Notebook that demonstrates the implementation of Multiple Linear Regression to predict employee salaries based on their experience, test scores, and interview scores.
+
+Contents
+Assignment 01_hiring.ipynb: The main notebook that includes the following:
+Data loading and exploration.
+Visualizing the relationships between features and the target variable (salary).
+Preprocessing data (handling missing values and preparing features).
+Implementing and training a multiple linear regression model.
+Model evaluation and making predictions.
+Prerequisites
+Before running the notebook, ensure you have the following installed:
+
+Python (>= 3.7)
+Jupyter Notebook or JupyterLab
+Required Python libraries:
+numpy
+pandas
+scikit-learn
+You can install the libraries using the following command:
+
+bash
+Copy code
+pip install numpy pandas scikit-learn
+Dataset
+The dataset hiring.csv contains the following columns:
+
+Experience: Number of years of work experience.
+Test_score: The score achieved on an aptitude test.
+Interview_score: The score achieved during an interview.
+Salary: The expected salary for a candidate.
+The goal is to predict the salary based on the provided features using multiple linear regression.
+
+How to Run the Notebook
+Clone the repository:
+
+bash
+Copy code
+git clone <repository-url>
+Navigate to the project directory:
+
+bash
+Copy code
+cd <repository-folder>
+Place the hiring.csv dataset in the project directory.
+
+Open the notebook:
+
+bash
+Copy code
+jupyter notebook "Assignment 01_hiring.ipynb"
+Run the cells sequentially to execute the code and follow along with the explanation.
+
+Example Workflow
+Data Loading and Exploration: Load the dataset containing employee hiring features and salaries, and explore the data.
+
+Data Visualization: Visualize the relationships between features (e.g., Experience, Test_score, and Interview_score) and the target variable (Salary).
+
+Data Preprocessing: Handle missing values and prepare the features for modeling.
+
+Model Training: Train a multiple linear regression model to predict salaries based on the given features.
+
+Model Evaluation: Evaluate the model's performance and interpret its coefficients.
+
+Making Predictions: Use the trained model to predict salaries for new candidates.
+
+Results
+The notebook demonstrates:
+
+How to fit a multiple linear regression model.
+Interpreting the coefficients of the regression model.
+Making salary predictions based on candidate data.
+Contributing
+Feel free to fork this repository and submit pull requests. Suggestions and improvements are welcome!
+
+License
+This project is licensed under the MIT License. See the LICENSE file for details.
